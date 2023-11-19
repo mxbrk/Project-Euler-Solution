@@ -1,5 +1,5 @@
 //biggest prime factor of 600851475143
-class Problem3 {
+public class Problem3 {
 
   public static void main(String[] args) {
     String primeNumbers = "";
@@ -19,11 +19,8 @@ class Problem3 {
         PrimN++;
       }
     }
-    System.out.println("Die Summe der Primzahlen von 1 bis 100 ist :");
-    System.out.println(PrimN);
-
-    System.out.println("Primzahlen von 1 bis 100 sind :");
-    System.out.println(primeNumbers);
+    System.out.printf("Die Summe der Primzahlen von 1 bis 100 ist:\n%d\n\n", PrimN);
+    System.out.println("Primzahlen von 1 bis 100 sind:\n" + primeNumbers);
   }
 }
 // ursprünglicher ansatz: Liste erzeugen und results vom teilen dort speichern, wenn listenlänge = 2 dann ist primzahl vorhanden
