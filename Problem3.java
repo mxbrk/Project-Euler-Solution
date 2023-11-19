@@ -1,6 +1,5 @@
 //biggest prime factor of 600851475143
 public class Problem3 {
-
   public static void main(String[] args) {
     String primeNumbers = "";
     int PrimN = 0;
