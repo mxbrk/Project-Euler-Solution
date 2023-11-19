@@ -3,12 +3,14 @@ This repository is displaying the solutions from project euler (https://projecte
 In order to use these solutions you need to do the following steps.  
 
 ## Prerequisites
+### Is Java installed?
 To run the Java version of the project euler solutions, it is necessary to have Java installed on your system.  
 To check if a Java JDK (Java Development Kit) is installed, use this command. If a Java JDK is installed, you will see the respective version:
 ```
 java -version 
 ```
-If Java is no version is shown, you can install a Java JDK (in this case OpenJDK ) with these commands:  
+### Installing Java JDK
+If no version is displayed, you can install a Java JDK (in this case OpenJDK ) with these commands:  
 for Linux (Debian based)
 ```
 #update packages
@@ -25,6 +27,9 @@ for Linux (Fedora, RedHat, CentOS)
 sudo dnf install java-latest-openjdk-devel
 java -version 
 ```
+for Windows, download the official OpenJDK from https://jdk.java.net/ and follow the instructions in the installation process.  
+
+### Java IDE/ Shell
 Using a Java IDE (Integrated Development Environment) is optional but recommended. All solutions written in Java can be executed without an IDE in the shell of your system.  
 ## Setup
 ### Clone this repository on local device
