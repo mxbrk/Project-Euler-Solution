@@ -11,14 +11,19 @@ java -version
 If Java is no version is shown, you can install a Java JDK (in this case OpenJDK ) with these commands:  
 for Linux (Debian based)
 ```
-sudo apt update #update packages
-sudo apt install default-jdk #installation itself
-java -version #check Java version
+#update packages
+sudo apt update
+
+#installation itself
+sudo apt install default-jdk
+
+#check Java version
+java -version 
 ```
 for Linux (Fedora, RedHat, CentOS)
 ```
 sudo dnf install java-latest-openjdk-devel
-java -version #check Java version
+java -version 
 ```
 Using a Java IDE (Integrated Development Environment) is optional but recommended. All solutions written in Java can be executed without an IDE in the shell of your system.  
 ## Setup
@@ -28,7 +33,8 @@ The following commands are valid for Linux,  Windows and macOS.
 git clone https://github.com/mxbrk/project-euler-solution.git
 ```
 ```
-cd project-euler-solution #necessary if you want to execute the solutions in the shell
+#necessary if you want to execute the solutions in the shell
+cd project-euler-solution 
 ```
 ## Execute 
 To run the solutions with an Java IDE follow the necessary steps of the respective application.  
