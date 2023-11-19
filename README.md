@@ -1,4 +1,4 @@
-#Documentation
+# Documentation
 This repository is displaying the solutions from project euler (https://projecteuler.net/about)  
 In order to use these solutions you need to do the following steps.  
 
