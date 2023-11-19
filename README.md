@@ -43,3 +43,5 @@ To see the result of the solution, run the code an see the results with this com
 ```
 java Problem1
 ```
+## Suggestions for improvement
+Since the project euler problems are also mae to improve your own coding skills, let me know if I can improve my solution. To do so, just open an issue :)
