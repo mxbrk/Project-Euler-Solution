@@ -1,6 +1,4 @@
-//Fibonacci numbers < 4000000
-class Problem2 {
-
+public class Problem2 {
   public static void main(String[] args) {
     int a = 0;
     int b = 1;
@@ -12,13 +10,11 @@ class Problem2 {
         result = a + b;
         a = b;
         b = result;
-        //        System.out.println(result);
       }
       if (((result % 2) == 0)) {
         sum = sum + result;
       }
     }
-
     System.out.println(sum);
   }
 }
