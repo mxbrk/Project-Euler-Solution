@@ -3,7 +3,7 @@ This repository is displaying the solutions from project euler (https://projecte
 In order to use these solutions you need to do the following steps.  
 
 ## Prerequisites
-To run the Java version of the project euler problems, it is necessary to have Java installed on your system.  
+To run the Java version of the project euler solutions, it is necessary to have Java installed on your system.  
 To check if a Java JDK (Java Development Kit) is installed, use this command. If a Java JDK is installed, you will see the respective version:
 ```
 java -version 
@@ -50,4 +50,4 @@ To see the result of the solution, run the code an see the results with this com
 java Problem1
 ```
 ## Suggestions for improvement
-Since the project euler problems are also mae to improve your own coding skills, let me know if I can improve my solution. To do so, just open an issue :)
+Since the project euler problems are also made to improve your own coding skills, let me know if I can improve my solutions. To do so, just open an issue :)
